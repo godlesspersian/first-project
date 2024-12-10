@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<style>
+    body{ 
+        background-color: rgb(189, 143, 201);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        /* برای استفاده از فلکس باکس --> */
+        justify-content: center;
+        /* برای چینش افقی در صفحه--> */
+        align-items: center;
+        /* برای چینش عمودی در صفحه --> */
+        flex-direction: column;
+        /* میگه بچه های داخل فلکس چطور مرتبن */
+        margin-top: 200px;
+
+        }
+   .git:hover{
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) ;
+     opacity: 0.8;
+     }
+    .git:active{
+        opacity: 0.5;
+     }
+    .git{
+        color: beige;
+        background-color: rgb(158, 121, 192);
+        border: none;
+        width: 200px;
+        height: 80px;
+        border-radius: 40px;
+        cursor: pointer;
+        transform: opacity 0.15;
+        font-size: larger;
+        font-weight: bold;
+    }
+</style>
+<p>
+    hello!
+</p>
+<p>
+    This is my first html practice
+</p>
+<a href="https://github.com/godlesspersian" target="_blank">
+    <button class="git">
+        click to my GitHub
+    </button>
+</a>
+
